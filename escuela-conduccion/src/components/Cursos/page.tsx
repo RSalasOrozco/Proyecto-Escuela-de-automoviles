@@ -121,7 +121,7 @@ function Cursos() {
 
   return (
     <div className="relative bg-white py-10 sm:py-16 lg:py-24">
-      <h1 className="text-center mt-12 mb-10 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight">
+      <h1 className="text-center mt-12 mb-10 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500">
         Todas Nuestras Licencias
       </h1>
 
@@ -185,7 +185,7 @@ function Cursos() {
               >
                 <Link
                   href="#"
-                  className="group relative block bg-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+                  className="group relative block bg-gradient-to-r from-blue-600 to-cyan-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
                 >
                   <Image
                     alt={`Licencia ${category.code}`}
@@ -196,7 +196,7 @@ function Cursos() {
                   />
 
                   <div className="relative p-4 sm:p-6">
-                    <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+                    <p className="text-sm uppercase tracking-widest font-bold text-yellow-500">
                       {category.type}
                     </p>
 
